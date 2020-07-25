@@ -1,0 +1,78 @@
+/* Подключаю стили */
+@font-face {
+    font-family: "Circle";
+    src: url("ttf/CIRCE-EXTRABOLD.TTF");
+    src: url("ttf/CIRCE-BOLD.TTF");
+    src: url("ttf/CIRCE-REGULAR.TTF");
+}
+
+body {
+    font-family: "Circle";
+}
+
+/* Изменяю стили Bootstrap для меню */
+.nav-link {
+    font-size: 1.125rem;
+    transition: .1s linear;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Пользовательские стили */
+.bg-top {
+    background: no-repeat url("../images/bg-top.svg") top right;
+}
+
+.school-h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #385305;
+    line-height: 0.85;
+}
+
+.school-motto {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d51a3b;
+}
+
+.school-b {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 1.125rem;
+    background-color: #d51a3b;
+    padding: 0.75rem 1.75rem;
+    border-radius: 30px;
+    transition: .1s linear;
+}
+
+.school-b:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+/* Медиа */
+@media(min-width: 992px) {
+    .bg-top {
+        background-size: 75% auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .school-h1 {
+        font-size: 4rem;
+    }
+}
