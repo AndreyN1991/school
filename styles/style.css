@@ -32,6 +32,7 @@ body {
 /* Пользовательские стили для меню */
 .bg-top {
     background: no-repeat url("../images/bg-top.svg") top right;
+    background-size: auto 100%;
 }
 
 .school-h1 {
@@ -93,7 +94,7 @@ body {
 /* Пользовательские стили для категорий */
 .bg-center {
     background: no-repeat url("../images/bg-center.svg") top center;
-    background-size: 100% auto;
+    background-size: auto;
 }
 
 .school-categories {
@@ -140,7 +141,7 @@ body {
 /* Пользовательские стили для футера */
 .bg-bottom {
     background: no-repeat url("../images/bg-bottom.svg") bottom center;
-    background-size: 100% auto;
+    background-size: auto 100%;
 }
 
 .school-h2-light {
@@ -158,9 +159,23 @@ body {
 }
 
 /* Медиа */
+@media(min-width: 1440px) {
+    .bg-top {
+        background: no-repeat url("../images/bg-top-large.svg") top right
+    }
+}
+
 @media (min-width: 992px) {
     .bg-top {
         background-size: 75% auto;
+    }
+
+    .bg-center {
+        background-size: 100% auto;
+    }
+
+    .bg-bottom {
+        background-size: 100% 100%;
     }
 
     .school-categories {
