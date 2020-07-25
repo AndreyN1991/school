@@ -65,9 +65,13 @@ body {
 }
 
 /* Изменяю стили Bootstrap для приемуществ */
-.col-2 {
+.col-lg-2 {
     padding-right: 5px;
     padding-left: 5px;
+}
+
+.card-body {
+    padding: 0.5rem;
 }
 
 /* Пользовательские стили для приемуществ */
@@ -116,6 +120,41 @@ body {
 
 .school-list li:not(:last-child) {
     margin-bottom: 1rem;
+}
+
+/* Пользовательские стили для "Почему выбирают нас" */
+.school-s-img {
+    width: 100px;
+    height: 100px;
+}
+
+.school-s-title {
+    font-weight: bold;
+}
+
+.school-s-text {
+    color: #7a7878;
+    line-height: 1.2rem;
+}
+
+/* Пользовательские стили для футера */
+.bg-bottom {
+    background: no-repeat url("../images/bg-bottom.svg") bottom center;
+    background-size: 100% auto;
+}
+
+.school-h2-light {
+    color: white;
+}
+
+.school-social {
+    background-color: transparent;
+    border: none;
+    transition: 0.1s linear;
+}
+
+.school-social:hover {
+    transform: scale(1.2);
 }
 
 /* Медиа */
