@@ -44,7 +44,7 @@ body {
     background-image: url("../images/bg-top-st.svg");
 }
 
-.school-h1 {    
+.school-h1 {
     font-weight: bold;
     color: #385305;
     line-height: 0.85;
@@ -94,8 +94,7 @@ body {
 /* Пользовательские стили для приемуществ */
 .school-h2 {
     font-weight: bold;
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 1.5rem;    
 }
 
 .school-a-card {
@@ -109,8 +108,17 @@ body {
 
 /* Пользовательские стили для категорий */
 .bg-center {
-    background: no-repeat url("../images/bg-center.svg") top center;
+    background-repeat: no-repeat;
+    background-position: top center;
     background-size: auto;
+}
+
+.bg-center-mi {
+    background-image: url("../images/bg-center.svg");
+}
+
+.bg-center-si {
+    background-image: url("../images/bg-center-st.svg");
 }
 
 .school-categories {
@@ -168,6 +176,10 @@ body {
     color: #385305;
 }
 
+.school-h2-light-green {
+    color: #88C716;
+}
+
 .school-social {
     background-color: transparent;
     border: none;
@@ -188,8 +200,36 @@ body {
     padding-bottom: 15rem;
 }
 
+.school-arrow-image {
+    transition: 0.5s linear;
+}
+
+.school-arrow-image:hover {
+    transform: rotate(90deg) translateY(-0.5rem);
+}
+
+.school-arrow-text {
+    left: 0;
+    right: 0;    
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3.5rem;
+}
+
+.school-arrow-text p {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.school-arrow-num {
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: #88c716;
+}
+
 /* Медиа */
-@media(min-width: 1440px) {
+@media (min-width: 1440px) {
     .bg-top-mi {
         background-image: url("../images/bg-top-large.svg");
     }
