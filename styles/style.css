@@ -31,8 +31,17 @@ body {
 
 /* Пользовательские стили для меню */
 .bg-top {
-    background: no-repeat url("../images/bg-top.svg") top right;
+    background-repeat: no-repeat;
+    background-position: top right;
     background-size: auto 100%;
+}
+
+.bg-top-mi {
+    background-image: url("../images/bg-top.svg");
+}
+
+.bg-top-si {
+    background-image: url("../images/bg-top-st.svg");
 }
 
 .school-h1 {
@@ -160,8 +169,8 @@ body {
 
 /* Медиа */
 @media(min-width: 1440px) {
-    .bg-top {
-        background: no-repeat url("../images/bg-top-large.svg") top right
+    .bg-top-mi {
+        background-image: url("../images/bg-top-large.svg");
     }
 }
 
