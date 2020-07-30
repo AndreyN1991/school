@@ -44,11 +44,18 @@ body {
     background-image: url("../images/bg-top-st.svg");
 }
 
-.school-h1 {
-    font-size: 6rem;
+.school-h1 {    
     font-weight: bold;
     color: #385305;
     line-height: 0.85;
+}
+
+.school-h1-ms {
+    font-size: 6rem;
+}
+
+.school-h1-ss {
+    font-size: 2.25rem;
 }
 
 .school-motto {
@@ -157,6 +164,10 @@ body {
     color: white;
 }
 
+.school-h2-green {
+    color: #385305;
+}
+
 .school-social {
     background-color: transparent;
     border: none;
@@ -167,10 +178,24 @@ body {
     transform: scale(1.2);
 }
 
+/* Стили по странице "Школьникам" */
+.school-hp-x {
+    padding: 0 1rem;
+}
+
+.school-hp-y {
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+
 /* Медиа */
 @media(min-width: 1440px) {
     .bg-top-mi {
         background-image: url("../images/bg-top-large.svg");
+    }
+
+    .bg-top-si {
+        background-image: url("../images/bg-top-st-large.svg");
     }
 }
 
@@ -190,10 +215,14 @@ body {
     .school-categories {
         width: 75%;
     }
+
+    .school-hp-x {
+        padding: 0 15rem;
+    }
 }
 
 @media (max-width: 576px) {
-    .school-h1 {
+    .school-h1-ms {
         font-size: 4rem;
     }
 }
