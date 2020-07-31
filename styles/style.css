@@ -38,11 +38,11 @@ body {
 }
 
 .bg-top-mi {
-    background-image: url("../images/bg-top.svg");
+    background-image: url("../images/backgrounds/bg-top.svg");
 }
 
 .bg-top-si {
-    background-image: url("../images/bg-top-st.svg");
+    background-image: url("../images/backgrounds/bg-top-st.svg");
 }
 
 .school-h1 {
@@ -115,11 +115,11 @@ body {
 }
 
 .bg-center-mi {
-    background-image: url("../images/bg-center.svg");
+    background-image: url("../images/backgrounds/bg-center.svg");
 }
 
 .bg-center-si {
-    background-image: url("../images/bg-center-st.svg");
+    background-image: url("../images/backgrounds/bg-center-st.svg");
 }
 
 .school-categories {
@@ -165,19 +165,19 @@ body {
 
 /* Пользовательские стили для футера */
 .bg-bottom {
-    background: no-repeat url("../images/bg-bottom.svg") bottom center;
+    background: no-repeat url("../images/backgrounds/bg-bottom.svg") bottom center;
     background-size: auto 100%;
 }
 
-.school-h2-light {
+.school-h-light {
     color: white;
 }
 
-.school-h2-green {
+.school-h-green {
     color: #385305;
 }
 
-.school-h2-light-green {
+.school-h-light-green {
     color: #88c716;
 }
 
@@ -279,15 +279,15 @@ body {
 /* Медиа */
 @media (min-width: 1440px) {
     .bg-top-mi {
-        background-image: url("../images/bg-top-large.svg");
+        background-image: url("../images/backgrounds/bg-top-large.svg");
     }
 
     .bg-top-si {
-        background-image: url("../images/bg-top-st-large.svg");
+        background-image: url("../images/backgrounds/bg-top-st-large.svg");
     }
 
     .bg-center-si {
-        background-image: url("../images/bg-center-st-large.svg");
+        background-image: url("../images/backgrounds/bg-center-st-large.svg");
     }
 }
 
