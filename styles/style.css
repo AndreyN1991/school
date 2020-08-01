@@ -177,6 +177,10 @@ body {
     color: #385305;
 }
 
+.school-h-green:hover {
+    color: #385305;
+}
+
 .school-h-light-green {
     color: #88c716;
 }
@@ -282,6 +286,19 @@ body {
     padding: 10rem 0;
 }
 
+.school-rounded {
+    border-radius: 2rem !important;
+}
+
+.school-green-arrow {
+    top: 0.2rem;
+    right: 0.2rem;
+}
+
+.collapsed > .school-green-arrow {
+    transform: rotate(180deg);
+}
+
 /* Медиа */
 @media (min-width: 1440px) {
     .bg-top-mi {
@@ -329,6 +346,10 @@ body {
     }
 
     .school-parents-md {
+        width: 100%;
+    }
+
+    .school-w-100 {
         width: 100%;
     }
 }
