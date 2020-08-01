@@ -276,6 +276,12 @@ body {
     font-weight: bold;
 }
 
+/* Пользовательские стили для страницы "Родителям" */
+.school-parents-md {
+    width: 40%;
+    padding: 10rem 0;
+}
+
 /* Медиа */
 @media (min-width: 1440px) {
     .bg-top-mi {
@@ -320,6 +326,10 @@ body {
 
     .summaries > div > img {
         display: none;
+    }
+
+    .school-parents-md {
+        width: 100%;
     }
 }
 
