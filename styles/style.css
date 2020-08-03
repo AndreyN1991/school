@@ -378,4 +378,8 @@ body {
     .school-h1-ms {
         font-size: 4rem;
     }
+
+    .d-none-mobile {
+        display: none;
+    }
 }

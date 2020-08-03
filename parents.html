@@ -206,14 +206,14 @@
             </div>
             <p class="school-tab-text">Занятия у нас помогут улучшить имеющийся уровень образования ребенка. А дополнительные занятия к традиционному школьному обучению (индивидуальное или групповое), дадут возможность лучше учиться в государственной школе или полностью перейти на обучение в перехода школьников на обучение в School «Развитие».</p>
             <h2 class="text-center school-h2">Форматы обучения</h2>
-            <div class="card-deck mt-8 mb-5">
-                <div class="card border-0 shadow">
-                    <img src="images/summaries/s-daughter.png" class="card-img-top mx-auto w-75 rounded-circle shadow mt-n7" alt="s-daughter" />
+            <div class="card-deck mt-8 mb-5" id="accordionSecond">
+                <div class="card border-0 shadow mb-4">
+                    <img src="images/summaries/s-daughter.png" class="card-img-top mx-auto w-75 rounded-circle shadow mt-n7 d-none-mobile" alt="s-daughter" />
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold text-center mt-5 mb-3 school-h-red">Самостоятелный</h5>
                         <p class="card-text text-center px-3">Для тех, кто хочет учиться в School «Развитие» дополнительно к основной, по всем предметам или только по выбранным, а также по дополнительным программам. Подходит для тех, кто пропустил или не понял тему в своей школе.</p>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer collapse show" id="collapseSOne" aria-labelledby="headingSOne" data-parent="#accordionSecond">
                         <small class="font-weight-bold school-small school-h-light-green">Включает:</small>
                         <ul class="list-unstyled text-muted school-small">
                             <li>Доступ ко всем материалам в библиотеке School «Развитие»: видеоурокам, конспектам, тренажёрам, тестам;</li>
@@ -221,16 +221,20 @@
                             <li>интерактивные тренажёры;</li>
                             <li>видеозаписи консультаций с учителем.</li>
                         </ul>
-                        <img class="d-block mx-auto mb-n4d5" src="images/green-arrow.svg" alt="green-arrow" />
+                    </div>
+                    <div class="card-footer border-top-0" id="headingSOne">
+                        <button class="btn btn-link btn-block text-left school-h-green" type="button" data-toggle="collapse" data-target="#collapseSOne" aria-expanded="true" aria-controls="collapseSOne">
+                            <img class="d-block mx-auto mb-n4d5 school-green-arrow" src="images/green-arrow-rotated.svg" alt="green-arrow" />
+                        </button>
                     </div>
                 </div>
-                <div class="card border-0 shadow">
-                    <img src="images/summaries/s-teacher.png" class="card-img-top mx-auto w-75 rounded-circle shadow mt-n7" alt="s-teacher" />
+                <div class="card border-0 shadow mb-4">
+                    <img src="images/summaries/s-teacher.png" class="card-img-top mx-auto w-75 rounded-circle shadow mt-n7 d-none-mobile" alt="s-teacher" />
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold text-center mt-5 mb-3 school-h-red">С учителем</h5>
                         <p class="card-text text-center px-3">Для тех, кто хочет учиться с преподавателями в School «Развитие» дополнительно к основной, а также для тех, кто хочет перейти на семейное/домашнее обучение. Удобная альтернатива занятиям с репетиторами.</p>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer collapse" id="collapseSTwo" aria-labelledby="headingSTwo" data-parent="#accordionSecond">
                         <small class="font-weight-bold school-small school-h-light-green">Включает:</small>
                         <ul class="list-unstyled text-muted school-small">
                             <li>Все функции формата «Самостоятельный», включая доступ к материалам библиотеки School «Развитие», а также:</li>
@@ -238,16 +242,20 @@
                             <li>задания с автоматической проверкой и множеством вариантов условий, проверка домашних заданий учителем,</li>
                             <li>оценки и рекомендации преподавателей.</li>
                         </ul>
-                        <img class="d-block mx-auto mb-n4d5" src="images/green-arrow.svg" alt="green-arrow" />
+                    </div>
+                    <div class="card-footer border-top-0" id="headingSTwo">
+                        <button class="btn btn-link btn-block text-left collapsed school-h-green" type="button" data-toggle="collapse" data-target="#collapseSTwo" aria-expanded="true" aria-controls="collapseSTwo">
+                            <img class="d-block mx-auto mb-n4d5 school-green-arrow" src="images/green-arrow-rotated.svg" alt="green-arrow" />
+                        </button>
                     </div>
                 </div>
-                <div class="card border-0 shadow">
-                    <img src="images/summaries/s-girl.png" class="card-img-top mx-auto w-75 rounded-circle shadow mt-n7" alt="s-girl" />
+                <div class="card border-0 shadow mb-4">
+                    <img src="images/summaries/s-girl.png" class="card-img-top mx-auto w-75 rounded-circle shadow mt-n7 d-none-mobile" alt="s-girl" />
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold text-center mt-5 mb-3 school-h-red">C зачислением</h5>
                         <p class="card-text text-center px-3">Для тех, кто хочет перейти на семейное или домашнее обучение или экстернат и иметь возможность заниматься в удобном для себя режиме с высококвалифицированными преподавателями по программе, соответствующей ГОС ПМР, с перспективой получения документа государственного образца (аттестата).</p>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer collapse" id="collapseSThree" aria-labelledby="headingSThree" data-parent="#accordionSecond">
                         <small class="font-weight-bold school-small school-h-light-green">Включает:</small>
                         <ul class="list-unstyled text-muted school-small">
                             <li>Все функции форматов «Самостоятельный» и «С учителем», включая доступ к материалам библиотеки School «Развитие», а также:</li>
@@ -255,7 +263,11 @@
                             <li>дистанционное оформление всех необходимых документов,</li>
                             <li>возможность зачисления иностранных граждан.</li>
                         </ul>
-                        <img class="d-block mx-auto mb-n4d5" src="images/green-arrow.svg" alt="green-arrow" />
+                    </div>
+                    <div class="card-footer border-top-0" id="headingSThree">
+                        <button class="btn btn-link btn-block text-left collapsed school-h-green" type="button" data-toggle="collapse" data-target="#collapseSThree" aria-expanded="true" aria-controls="collapseSThree">
+                            <img class="d-block mx-auto mb-n4d5 school-green-arrow" src="images/green-arrow-rotated.svg" alt="green-arrow" />
+                        </button>
                     </div>
                 </div>
             </div>
