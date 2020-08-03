@@ -309,6 +309,15 @@ body {
     font-size: 0.875rem;
 }
 
+/* Стили для страницы контактов */
+.school-h-contact {
+    height: 55px;
+}
+
+.school-i-contact::placeholder {
+    color: #E5E5E5;
+}
+
 /* Расширение стилей Bootstrap */
 .mt-n7 {
     margin-top: -8rem !important;
