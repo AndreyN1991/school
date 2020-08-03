@@ -44,6 +44,10 @@ body {
     background-image: url("../images/backgrounds/bg-top-st.svg");
 }
 
+.bg-top-ti {
+    background-image: url("../images/backgrounds/bg-top-t.svg");
+}
+
 .school-h1 {
     font-weight: bold;
     color: #385305;
@@ -334,6 +338,10 @@ body {
 
     .bg-center-si {
         background-image: url("../images/backgrounds/bg-center-st-large.svg");
+    }
+
+    .bg-top-ti {
+        background-image: url("../images/backgrounds/bg-top-t-large.svg");
     }
 }
 
